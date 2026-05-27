@@ -1,0 +1,61 @@
+{
+
+  "pods": {
+
+    "CCT": {
+
+      "git": {
+
+        "remote_url": "https://github.com/yourorg/cbh_cct_frt.git",
+
+        "token": "${GIT_TOKEN}"
+
+      },
+
+      "local_fallback": "C:/develop/repository/git/cbh_cct_frt",
+
+      "base_path": "clx-src/cbhcct/policy",
+
+      "screen_name": "CCT 화면"
+
+    },
+
+    "PAY": {
+
+      "git": {
+
+        "remote_url": "https://github.com/yourorg/cbh_pay_frt.git",
+
+        "token": "${GIT_TOKEN}"
+
+      },
+
+      "local_fallback": "C:/develop/repository/git/cbh_pay_frt",
+
+      "base_path": "clx-src/cbhpay/annuity",
+
+      "screen_name": "PAY 화면"
+
+    }
+
+  },
+
+  "backend": {
+
+    "search_paths": [
+
+      "C:/develop/repository/git/cbh_cct_bnd/src/main/java/kr/co/kblife",
+
+      "C:/develop/repository/git/cbh_pay_bnd/src/main/java/kr/co/kblife"
+
+    ]
+
+  },
+
+  "output": {
+
+    "excel_file": "screen_comparison_result.xlsx"
+
+  }
+
+}
